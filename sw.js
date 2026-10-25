@@ -1,6 +1,6 @@
 // Guarda la app en el dispositivo para que abra sin internet.
 // Al cambiar CACHE se descarta la versión anterior.
-const CACHE = "dosis-guardia-2026-10-25-v1";
+const CACHE = "dosis-guardia-2026-10-25-v2";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
